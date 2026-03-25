@@ -8,11 +8,7 @@ pipeline {
 
     stages {
 
-        stage('Clone Code') {
-            steps {
-                git 'https://github.com/Pranay-Medipally/Calculator-Devops.git'
-            }
-        }
+        
 
         stage('Build Docker Image') {
             steps {
